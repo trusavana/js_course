@@ -1,7 +1,7 @@
 
-var operation = 'sub';
-var a = 2;
-var b = 5;	
+var operation = 'pov';
+var a = 3;
+var b = 3;	
 switch (operation) {
 	case 'add':{
 		console.log(a + b);
@@ -21,10 +21,13 @@ switch (operation) {
 	}
 	case 'pow':{
 		console.log(Math.pow(x, y));
+	}
+	case 'pov':{
+		console.log(Math.pow(a, b));
 		break;
 	}
 	default:{
-		console.log("Не правильное значение.");
+		
 		break;
 	}
 }
