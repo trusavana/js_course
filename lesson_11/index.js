@@ -19,7 +19,7 @@ switch (operation) {
 		console.log(a / b);
 		break;
 	}
-	case 'pov':{
+	case 'pow':{
 		x - y;
 		break;
 	}
