@@ -20,7 +20,7 @@ switch (operation) {
 		break;
 	}
 	case 'pow':{
-		x - y;
+		console.log(Math.pow(x, y));
 		break;
 	}
 	default:{
