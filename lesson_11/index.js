@@ -20,12 +20,9 @@ switch (operation) {
 		break;
 	}
 	case 'pow':{
-		console.log(Math.pow(x, y));
-	}
-	case 'pov':{
 		console.log(Math.pow(a, b));
-		break;
 	}
+	
 	default:{
 		
 		break;
