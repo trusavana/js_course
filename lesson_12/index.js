@@ -8,16 +8,16 @@ for (let i = 0; i < arr1.length; i++)
 {
 	sum += arr1[i];	
 }
-console.log('Сумма элементов массива ' + sum);
+console.log(sum);
 let numEl = arr1.length;
 midl = sum / numEl;
-console.log('Средние арефметическое ' + midl);
+console.log(midl);
 for (let i =0; i < arr1.length; i++)
  { 
 	if(min > arr1[i])
 		{
 		 min=arr1[i];
- 		 console.log('Минимальное заначение ' + min);
+ 		 console.log(min);
 		}
 }
 for (let i = 0; i < arr1.length;  i++)
@@ -25,7 +25,7 @@ for (let i = 0; i < arr1.length;  i++)
 	if(arr1[i] > arr1[i + 1])
 	{
 		max = arr1[i];
-		console.log('Максимальное значение ' + max);
+		console.log(max);
 	}
 }
 const obj1 = { from: 1, to: 4, value: [4, 5, 12, 7, 5, 4], ignore: [2] };
