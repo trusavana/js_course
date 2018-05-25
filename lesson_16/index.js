@@ -5,7 +5,8 @@ const n = 10;
 let num = document.getElementById('p');
 let dis = document.getElementById('start');
 let interval;
-
+let t = 1;  
+let tim = document.querySelector("#p");
   
 for (let i = 1; i <= n; i++)
 {
@@ -23,16 +24,19 @@ for (let i = 1; i <= n; i++)
 function start() {
  
 
-    let t = 1;  
+    
     timer = setInterval(function () {
-        let tim = document.querySelector("#p");        
-        tim.innerHTML = t++;        
+             
+        tim.innerHTML = t++ + ' second ';        
 
     }, second);    
     dis.setAttribute('disabled', 'true');
 }      
 function stop() {
     clearInterval(timer);
+    num = 0;
+    tim.innerHTML = 0 + ' second ';
+
     dis.removeAttribute('disabled');
 }
 function pause() {
